@@ -16,10 +16,11 @@
         <title>Django Blog</title>
     {% endif %}
 </head>
-<body>
+<body >
+
     <header class="site-header">
         <nav class="navbar navbar-expand-md fixed-top" style= "background-color: black">
-            <div class="container">
+            <div class="container" >
                 <a class="navbar-brand mr-4 text-white" href="{% url 'blog-home' %}">Sk8Spotz</a>
                 <button class="navbar-toggler" type="button" style="background-color: whitesmoke" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -58,13 +59,13 @@
               </div>
               <div class="col-md-4">
                 <div class="content-section">
-                  <h3>Our Sidebar</h3>
+                  <h3>Other dope links</h3>
                   <p class='text-muted'>You can put any information here you'd like.
                     <ul class="list-group">
-                      <li class="list-group-item list-group-item-light">Latest Posts</li>
-                      <li class="list-group-item list-group-item-light">Announcements</li>
-                      <li class="list-group-item list-group-item-light">Calendars</li>
-                      <li class="list-group-item list-group-item-light">etc</li>
+                      <a class="list-group-item btn" href="https://www.youtube.com/channel/UC97VWzYLwjEIDfoXmdub-2Q">Trick Help</a>
+                      <a class="list-group-item btn" href="https://www.youtube.com/results?search_query=best+skate+videos+of+all+timegi">Sicc vids</a>
+                      <a class="list-group-item btn" href="{% url 'blog-store' %}">Stores</a>
+                      <a class="list-group-item btn" href="{% url 'blog-contact' %}">Contact</a>
                     </ul>
                   </p>
                 </div>
