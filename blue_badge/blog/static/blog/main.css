@@ -2,12 +2,12 @@
 body {
     background-image: url(back.jpeg);
     
-    color: #333333;
+    color: whitesmoke;
     margin-top: 5rem;
 }
   
 h1, h2, h3, h4, h5, h6 {
-    color: #444444;
+    color: whitesmoke;
 }
   
 ul {
@@ -19,7 +19,7 @@ ul {
 }
   
 .site-header .navbar-nav .nav-link {
-    color: #cbd5db;
+    color: whitesmoke;
 }
   
 .site-header .navbar-nav .nav-link:hover {
@@ -31,19 +31,20 @@ ul {
 }
   
 .content-section {
-    background: #ffffff;
+    background: black;
     padding: 10px 20px;
-    border: 1px solid #dddddd;
-    border-radius: 3px;
+    border: 5px solid whitesmoke;
+    border-radius: 70px;
     margin-bottom: 20px;
+    padding: 20px;
 }
   
 .article-title {
-    color: #444444;
+    color: whitesmoke;
 }
   
 a.article-title:hover {
-    color: #acb8c4;
+    color: #787a7c ;
     text-decoration: none;
 }
   
@@ -64,7 +65,7 @@ a.article-title:hover {
 }
   
 .article-metadata a:hover {
-    color: #333;
+    color: whitesmoke;
     text-decoration: none;
 }
   
