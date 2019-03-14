@@ -31,7 +31,7 @@ ul {
 }
   
 .content-section {
-    background: black;
+    background-image: url(griptape.jpeg);
     padding: 10px 20px;
     border: 5px solid whitesmoke;
     border-radius: 70px;
