@@ -85,3 +85,17 @@ a.article-title:hover {
 .account-heading {
     font-size: 2.5rem;
 }
+.gear{
+    background-image: url(griptape.jpeg);
+    padding-left: 40px;
+    border: 5px solid whitesmoke;
+    border-radius: 150px;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 0px;
+    margin-right: 300px;
+    margin-left: 200px
+}
+
