@@ -15,8 +15,8 @@
             </div>
             <h2 class="article-title">{{ object.location }}</h2>
             <p class="article-content">{{ object.content }}</p>
+            <img src="{{ object.image.url }}">
         </div>
     </article>
-    <img src="{{ object.image.url }}">
 
 {% endblock content %}
