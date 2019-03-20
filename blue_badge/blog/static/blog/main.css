@@ -94,8 +94,9 @@ a.article-title:hover {
     padding-bottom: 30px;
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-right: 0px;
-    margin-right: 300px;
-    margin-left: 200px
+    padding-right: 34%;
+    margin-right: 50%;
+    margin-left: 25%;
+    font-size: relative
 }
 
