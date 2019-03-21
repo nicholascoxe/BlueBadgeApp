@@ -32,11 +32,11 @@ ul {
   
 .content-section {
     background-image: url(griptape.jpeg);
-    padding: 10px 20px;
+    padding: 20px 30px;
     border: 5px solid whitesmoke;
-    border-radius: 70px;
+    border-radius: 110px;
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 30px;
 }
   
 .article-title {

@@ -8,8 +8,8 @@
                     <a class="mr-2" href="{% url 'user-posts' post.author.username %}">{{ post.author }}</a>
                     <small class="text">{{ post.date_posted|date:"F d, Y" }}</small>
                 </div>
-                <h2><a class="article-title" href="{% url 'post-detail' post.id %}">{{ post.location }}</a></h2>
-                <p class="article-content">{{ post.content }}</p>
+                <h2><a class="article-title" href="#">{{ post.location }}</a></h2>
+                <p class="article-content">{{ post.content }}</p><a class="btn btn-secondary btn-sm" href="{% url 'post-detail' post.id %}">View Spot</a>
                 </div>
             </article>
     {% endfor %}
