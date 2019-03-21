@@ -33,7 +33,7 @@ ul {
 .content-section {
     background-image: url(griptape.jpeg);
     padding: 20px 30px;
-    border: 5px solid whitesmoke;
+    border: 4px solid rgb(110, 73, 25);
     border-radius: 110px;
     margin-bottom: 20px;
     padding: 30px;
@@ -88,7 +88,7 @@ a.article-title:hover {
 .gear{
     background-image: url(griptape.jpeg);
     padding-left: 40px;
-    border: 5px solid whitesmoke;
+    border: 4px solid rgb(110, 73, 25);
     border-radius: 150px;
     margin-bottom: 20px;
     padding-bottom: 30px;
@@ -100,3 +100,19 @@ a.article-title:hover {
 
 }
 
+.storefront{
+   background-image: url(shop1.jpg);
+   background-repeat:no-repeat;
+   background-size: cover;
+   padding-top: 20%;
+   padding-bottom: 20%;
+   border: solid 5px black
+}
+.dope{
+    background-image: url(griptape.jpeg);
+    padding: 20px 30px;
+    border: 4px solid whitesmoke;
+    border-radius: 110px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
