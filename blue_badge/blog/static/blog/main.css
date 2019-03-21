@@ -35,7 +35,8 @@ ul {
     padding: 20px 30px;
     border: 4px solid rgb(110, 73, 25);
     border-radius: 110px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    margin-top: 7%;
     padding: 30px;
 }
   
@@ -94,9 +95,10 @@ a.article-title:hover {
     padding-bottom: 30px;
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-right: 34%;
+    padding-right: 25%;
     margin-right: 50%;
     margin-left: 25%;
+    font-style: italic
 
 }
 
@@ -114,5 +116,6 @@ a.article-title:hover {
     border: 4px solid whitesmoke;
     border-radius: 110px;
     margin-bottom: 20px;
+    margin-top: 15%;
     padding: 30px;
 }
